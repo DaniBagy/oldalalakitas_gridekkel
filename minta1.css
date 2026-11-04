@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-columns:1fr 1fr  ;
+}
+
+header{
+    grid-area: h;
+    background-color: rgb(156, 186, 212);
+}
+nav{
+    grid-area: n;
+    background-color: rgb(207, 140, 52);
+}
+section{
+    grid-area: s;
+    background-color: rgb(81, 207, 207);
+}
+article{
+    grid-area: ar;
+    background-color: rgb(99, 221, 180);
+}
+aside{
+    grid-area: as;
+    background-color: rgb(90, 202, 202);
+}
+footer{
+    grid-area: f;
+    background-color: rgb(206, 206, 132);
+}
